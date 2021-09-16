@@ -1,23 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400;500&display=swap');
-
-font-family: 'Patrick Hand', cursive;
-font-family: 'Rubik Mono One', sans-serif;
-font-family: 'Fira Sans', sans-serif;
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --peachpuff: peachpuff;
+    --white: white;
+    --dark-blue: rgb(89, 109, 167);
+}
+
+.home {
+
+}
+.logo {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 280px;
+    
+}
+
+
 
 header {
     background-image: url(../img/background/background-banner.png);
     background-position: center;
-    min-height: 400px;
+    min-height: 780px;
+    min-width: 360px;
     background-repeat: cover;
-    background-position: center;
+    background-position-x: 55%;
+    background-position-y: 45%;
+
+}
+
+.menu {
+    margin-left: 30px;
+}
+
+.its-time {
+    font-family: 'Patrick Hand', cursive;
+    color: var(--peachpuff);
+    margin: 25px;
+}
+
+.take-your {
+    font-family: 'Fira Sans', sans-serif;
+    color: var(--white);
+    margin: 25px;
+}
+.accent-color {
+    color: var(--peachpuff);
+
 }
 
 header nav .menu {
@@ -27,20 +63,22 @@ header nav .menu {
 }
 header nav .menu a{
     text-decoration: none;
-    
-}
-
-.banner p:nth-child(1){
-    font-family: 'Patrick Hand', cursive;
-    color: peachpuff;
-}
-
-.banner p:nth-child(2) {
     font-family: 'Fira Sans', sans-serif;
-    color: white;
+    color: var(--dark-blue);
+    font-size: 17px;
 }
 
 h1 {
-    font-family: 'Rubik Mono One', sans-serif;
-    color:white;
+    font-family: 'Rubik', sans-serif;
+    color: var(--white);
+    margin: 25px;
+}
+
+
+.social-icons {
+    margin: 25px;
+}
+
+.link{
+    margin: 50px;
 }

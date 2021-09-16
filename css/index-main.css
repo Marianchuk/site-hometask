@@ -1,0 +1,19 @@
+
+
+
+.short-navigation img {
+    display: block;
+    width: 100%;
+}
+
+.icon {
+    
+} 
+
+@media (min-widht: 600px) {
+    .short-navigation {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
