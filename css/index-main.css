@@ -1,19 +1,41 @@
 
-
-
-.short-navigation img {
-    display: block;
-    width: 100%;
+.short-navigation > div {
+float: left;
+min-height: 425.5px;
+min-width: 360px;
+box-sizing: border-box;
+color: var(--white);
+font-family: 'Rubik', sans-serif;
+font-weight: bold;
+font-size: 24px;
+text-align: center;
 }
 
-.icon {
-    
-} 
 
-@media (min-widht: 600px) {
-    .short-navigation {
-        display: flex;
-        flex-wrap: wrap;
 
-    }
+
+.short-navigation a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 20px;
+
+}
+
+.short-navigation img {
+ width: 70px;
+ color: var(--white)
+ 
+}
+
+.navigation-yellow {
+    background-image: url(../img/background/yellow-background.png);
+  
+}
+
+.navigation-blu {
+    background-image: url(../img/background/blue-background.png);
+}
+
+.navigation-dark-blu {
+    background-image: url(../img/background/dark-blue-background.png);
 }

@@ -5,7 +5,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 :root {
     --peachpuff: peachpuff;
@@ -13,13 +13,12 @@
     --dark-blue: rgb(89, 109, 167);
 }
 
-.home {
-
 }
+
 .logo {
-    padding-left: 10px;
-    padding-top: 10px;
-    width: 280px;
+
+    width: 221px;
+    height: 61px;
     
 }
 
@@ -33,11 +32,11 @@ header {
     background-repeat: cover;
     background-position-x: 55%;
     background-position-y: 45%;
-
+    box-sizing: border-box;
 }
 
 .menu {
-    margin-left: 30px;
+    
 }
 
 .its-time {
@@ -55,6 +54,12 @@ header {
     color: var(--peachpuff);
 
 }
+.home {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100px;
+    min-width: 360px;
+}
 
 header nav .menu {
     display: flex;
@@ -67,6 +72,24 @@ header nav .menu a{
     color: var(--dark-blue);
     font-size: 17px;
 }
+
+header nav .menu a:hover {
+    font-weight: bold;
+}
+
+@media (min-width: 600px) {
+    header div .home {
+        display: flex;
+    }
+    header nav .menu {
+            flex-direction: row;
+            align-items: right;
+            justify-content: space-around;
+            flex: 1;
+        }
+    }
+
+
 
 h1 {
     font-family: 'Rubik', sans-serif;
@@ -81,4 +104,10 @@ h1 {
 
 .link{
     margin: 50px;
+    text-decoration: none;
+    color: var(--white);
+
+}
+.link:hover {
+    opacity: 0.9;
 }
