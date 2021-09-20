@@ -102,7 +102,7 @@ header nav .menu a:hover {
 }
 
 @media (min-width: 400px) {
-    
+
 }
 
 h1 {
@@ -176,4 +176,5 @@ h1 {
 
 .link:hover {
     opacity: 0.9;
+    border: var(--light-blue);
 }
