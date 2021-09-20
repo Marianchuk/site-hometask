@@ -3,11 +3,11 @@
 }
 
 .burger-icon {
-    font-size: 2rem;
+    font-size: 33px;
     color: var(--dark-blue);
-    
-    width: 24px;
+    width: 42px;
     height: 16px;
+    padding-top: 10px;
     
 }
 

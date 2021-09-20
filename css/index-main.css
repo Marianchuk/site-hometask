@@ -9,6 +9,10 @@ font-family: 'Rubik', sans-serif;
 font-weight: bold;
 font-size: 24px;
 text-align: center;
+/*width: 100%;
+border-style: solid;
+border-color: black;
+border-width: 5px;*/
 }
 
 
@@ -18,24 +22,47 @@ text-align: center;
     text-decoration: none;
     color: var(--white);
     font-size: 20px;
+    
+    /*border-style: solid;
+    border-color: black;
+    border-width: 5px;*/
+   
+    
 
 }
 
 .short-navigation img {
- width: 70px;
- color: var(--white)
- 
+    width: 70px;
+    color: var(--white);
+    /*border-style: solid;
+    border-color: black;
+    border-width: 5px;*/
+    padding-top: 150px;
+    background-position-x: 26%;
+    background-position-y: 6%;
+    
 }
 
 .navigation-yellow {
     background-image: url(../img/background/yellow-background.png);
-  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 56%;
+    background-position-y: -1%;
 }
 
 .navigation-blu {
     background-image: url(../img/background/blue-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 56%;
+    background-position-y: -1%;
 }
 
 .navigation-dark-blu {
     background-image: url(../img/background/dark-blue-background.png);
+    background-size: cover;
+    background-position-x: 48%;
+    background-position-y: -1%;
+    
 }
