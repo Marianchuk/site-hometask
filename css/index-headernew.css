@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+
+:root {
+    --peachpuff: #ffe2de;
+    --white: white;
+    --dark-blue: rgb(89, 109, 167);
+    --light-blue: #62d0df;
+    --grey: rgb(165, 164, 164);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/*home*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 7px 33px 157px 30px;
+    
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding-top: 25px;
+}
+.menu {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 130vh;
+    
+    background-image: url(../img/background/background-banner.png);
+    background-position-x: 53%;
+    background-position-y: -1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 225px;
+    height: 58px;
+}
+
+.nav a {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    font-size: 14px;
+    font-family: 'Fira Sans', sans-serif;
+    color: var(--dark-blue);
+    text-decoration: none;
+}
+header nav .nav a:hover {
+    font-weight: bold;
+}
+
+/*banner*/
+.banner {
+    width: 540px;
+    height: 685px;
+    padding-top: 100px;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    color: var(--white);
+    font-size: 95px;
+    font-weight: 20px;
+    margin-top: 30px;
+}
+.accent-color {
+    color: var(--peachpuff);
+}
+
+.its-time {
+    font-family: 'Patrick Hand', cursive;
+    color: var(--peachpuff);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.take-your {
+    font-family: 'Fira Sans', sans-serif;
+    color: var(--white);
+    font-size: 19px;
+    margin-top: 40px;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 14.3px;
+    font-weight: bold;
+    width: 237px;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-blue);
+    background: linear-gradient(110deg,#a2e3ec,#62d0df);
+    background-position: 50%;
+    overflow: visible;
+    cursor: pointer;
+    border: var(--light-blue);
+    border-radius: 30px;
+    padding: 17px;
+}
+
+.link:hover {
+    opacity: 0.9;
+    border: var(--light-blue);
+}
+
+/*short-navigation*/
+.short-navigation {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    
+
+}
+
+
+.short-navigation > div {
+    width: 33.3333%;
+    float: left;
+    box-sizing: border-box;
+    color: var(--white);
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+    
+
+.short-navigation a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 15px;
+}
+
+.short-navigation img {
+    width: 100px;
+    fill: var(--white);
+    padding-top: 150px;
+    background-position-x: 26%;
+    background-position-y: 6%;
+}
+
+.navigation-yellow {
+    background-image: url(../img/background/yellow-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 56%;
+    background-position-y: -1%;
+}
+
+.navigation-blu {
+    background-image: url(../img/background/blue-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 56%;
+    background-position-y: -1%;
+}
+
+.navigation-dark-blu {
+    background-image: url(../img/background/dark-blue-background.png);
+    background-size: cover;
+    background-position-x: 48%;
+    background-position-y: -1%;
+}
+
+/*about-us*/
+.about-us {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    
+}
+.about-us div {
+    width: 50%;
+}
+
+.about-us-foto {
+background-image: url(../img/background/girl-with-bottle.jpg);
+background-position-x: 50%;
+background-position-y: -1%;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.about-us-info {
+    width: 100%;
+    padding: 25px;
+}

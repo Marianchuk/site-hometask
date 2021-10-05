@@ -2,7 +2,7 @@
 .short-navigation > div {
 float: left;
 min-height: 425.2px;
-min-width: 360px;
+/*min-width: 360px;*/
 box-sizing: border-box;
 color: var(--white);
 font-family: 'Rubik', sans-serif;
@@ -22,13 +22,9 @@ border-width: 5px;*/
     text-decoration: none;
     color: var(--white);
     font-size: 20px;
-    
     /*border-style: solid;
     border-color: black;
     border-width: 5px;*/
-   
-    
-
 }
 
 .short-navigation img {
@@ -64,5 +60,4 @@ border-width: 5px;*/
     background-size: cover;
     background-position-x: 48%;
     background-position-y: -1%;
-    
 }

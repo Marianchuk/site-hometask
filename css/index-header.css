@@ -8,7 +8,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 :root {
@@ -17,10 +16,8 @@
     --dark-blue: rgb(89, 109, 167);
     --light-blue: #62d0df;
     --grey: rgb(165, 164, 164);
-
     /*--some: rgba(33, 50, 112, 0.12);
     --one: rgba(33, 50, 112, 0.7);*/
-    
 }
 
 header {
@@ -89,7 +86,7 @@ header nav .menu a:hover {
     font-weight: bold;
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     header div .home {
         display: flex;
     }
@@ -101,7 +98,7 @@ header nav .menu a:hover {
         }
 }
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
 
 }
 
@@ -170,8 +167,6 @@ h1 {
     border: var(--light-blue);
     border-radius: 30px;
     padding: 17px;
-
-
 }
 
 .link:hover {
