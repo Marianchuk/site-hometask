@@ -3,12 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
 
+*{
+    margin: 0;
+}
+
 :root {
     --peachpuff: #ffe2de;
     --white: white;
     --dark-blue: rgb(89, 109, 167);
     --light-blue: #62d0df;
     --grey: rgb(165, 164, 164);
+    --dark-peachpuff: #F6B5AD;
+    --black-blue: #213270;
+
 }
 
 *,
@@ -91,7 +98,7 @@ h1 {
 
 .its-time {
     font-family: 'Patrick Hand', cursive;
-    color: var(--peachpuff);
+    color: var(--dark-peachpuff);
     font-size: 20px;
     font-weight: bold;
 }
@@ -134,12 +141,12 @@ h1 {
     width: 100%;
     height: 75vh;
     display: flex;
+    ; 
 }
 
 
 .short-navigation > div {
     width: 33.3333%;
-    float: left;
     box-sizing: border-box;
     color: var(--white);
     font-family: 'Rubik', sans-serif;
@@ -190,31 +197,37 @@ h1 {
 .about-us {
     width: 100%;
     height: 120vh;
-    display: flex;
-    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
 }
-.about-us-foto {
-    width: 50%;
-}
-
 
 .about-us-foto {
-background-image: url(../img/background/girl-with-bottle.jpg);
-background-position-x: 50%;
-background-position-y: -1%;
-background-size: cover;
-background-repeat: no-repeat;
+    width: 100%;
+    height: 120vh;
 }
 
-.about-us-info {
-       
+
+.about-us-foto {
+    background-image: url(../img/background/girl-with-bottle.jpg);
+    background-position-x: 50%;
+    background-position-y: -1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info-us {
+    margin: 30px 70px 45px 70px;
     
+}
+.about-us-info {
+    width: 100%;
+    height: 120vh;
 }
 
 .info-us h3 {
     font-family: 'Patrick Hand', sans-serif;
     font-weight: bold;
-    color: var(--peachpuff);
+    color: var(--dark-peachpuff);
     font-size: 22px;
 }
 .info-us h2 {
@@ -222,57 +235,101 @@ background-repeat: no-repeat;
     color: var(--dark-blue);
     font-size: 66px;
     font-family: 'Rubik', sans-serif;
+    
 }
 .info-us p {
     font-family: 'Fira Sans', sans-serif;
     font-size: 19px;
     color: var(--dark-blue);
+    margin: 15px 0px 15px 0px;
+    font-style: italic;
 
 }
 .our-advantages div h4 { 
-    color: var(--peachpuff);
+    color: var(--dark-peachpuff);
     font-size: 24px;
     font-weight: bold;
+    margin: 0px 25px 0px 25px;
 
 }
 .our-advantages div p {
     font-size: 17px;
     font-family: 'Fira Sans', sans-serif;
     color: var(--grey);
+    margin: 25px 25px 45px 25px;
 }
 
-.best-instructors {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  
-    margin: 0 auto;
+   
+
+.item {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50px 500px;
+    align-items: center;
+    margin: 0px 10px 0px 100px;
+
 }
 
-.different-programs {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  
-    margin: 0 auto;
-}
-.nice-prices {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  
-    margin: 0 auto;
-}
 
 .button {
     display: inline-block;
     vertical-align: top;
-    margin: 0 15px;
+    margin: 0 10px;
     font-size: 14px;
     font-family: 'Fira Sans', sans-serif;
     color: var(--dark-blue);
     text-decoration: none;
+    margin: 0px 0px 0px 110px;
 }
 button:hover {
     font-weight: bold;
+}
+
+/*how-to-start*/
+
+.how-to-start {
+    background-color: var(--peachpuff);
+    text-align: center;
+    width: 100%;
+    height: 90vh;
+    padding-top: 104px;
+
+
+}
+.start-info h4 {
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 22px;
+    color: var(--dark-peachpuff);
+    font-weight: bold;
+}
+
+.start-info h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 66px;
+    color: var(--black-blue);
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.start-info p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 19px;
+    color: var(--dark-blue);
+    font-style: italic;
+    margin-top: 25px;
+    
+}
+
+.easy-steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 35px;
+    
+}
+.easy-steps h4 {
+    font-size: 35px;
+    color: var(--dark-peachpuff);
+    background-image: url(../img/background/button_icon_white.svg.png);
+
+
 }
