@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;
+}
+
+:root {
+    --peachpuff: #ffe2de;
+    --white: white;
+    --dark-blue: rgb(89, 109, 167);
+    --light-blue: #62d0df;
+    --grey: rgb(165, 164, 164);
+    --dark-peachpuff: #F6B5AD;
+    --black-blue: #213270;
+    --pink: rgb(247, 214, 210);
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+
+/*our-classes*/
+body .ourClasses {
+    background-color: var(--wight);
+    width: 100%;
+    height: 120vh;
+    margin: 0 auto;
+}
+
+body .ourClasses h6 {
+    color: var(--dark-peachpuff);
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 22px;
+    padding-top: 107px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+body .ourClasses h4 {
+    color: var(--black-blue);
+    font-family: 'Rubik', sans-serif;
+    font-size: 66px;
+    margin-bottom: 60px;
+    font-style: bold;
+    text-align: center;
+}
+    
+body .ourClasses .classesGroup .carousel .slide-container  {
+    max-width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    
+}
+
+body .ourClasses .classesGroup .carousel .slide-container  nav {
+    max-width: 360px;
+    max-height: 430px;
+    margin: 0 auto;
+    margin-left: 30px;
+}
+
+body .ourClasses .classesGroup .carousel .slide-container nav img {
+    max-width: 364px;
+    max-height: 246px;
+    align-items: center
+}
+
+
+body .ourClasses .classesGroup .carousel .slide-container h5 {
+    color: var(--dark-blue);
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+body .ourClasses .classesGroup .carousel .slide-container p {
+    color: var(--grey);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+body .ourClasses .classesGroup .carousel .slide-container  a {
+    color: var(--dark-blue);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 13px;
+    margin-bottom: 25px;
+    font-style: bold;
+    direction: none;
+}
+
+body .ourClasses .butooms-slider {
+    position: absolute;
+    width: 100%;
+    top: 70%;
+    display: flex;
+    justify-content: space-between;
+} 
+
+body .ourClasses .butooms-slider .prev {
+    background-image: url(../img/button/prev.png);
+}
+
+body .ourClasses .butooms-slider .next {
+    background-image: url(../img/button/next.png);
+}
+
+
+/*Choose-program*/
+.choose-program-and-plan {
+    background-color: var(--pink);
+    width: 100%;
+    height: 140vh;
+
+}
+
+.container-info {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-info h5 {
+    color: var(--dark-peachpuff);
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+    margin-bottom: 15px;
+
+
+}
+
+.container-info h2 {
+    color: var(--black-blue);
+    font-family: 'Rubik', sans-serif;
+    font-size: 70px;
+    margin-bottom: 20px;
+    
+
+}
+
+.container-info .container-button {
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /*overflow: hidden;
+    position: relative;*/
+}
+
+.container-intro {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+.container-intro nav {
+    width: 370px;
+    height: 520px;
+    background-color: var(--white);
+    
+}
+.navigation {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.navigation h4 {
+    color: var(--black-blue);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    max-width: 80%;
+    margin: 55px auto;
+    text-align: center;
+    
+    
+}
+

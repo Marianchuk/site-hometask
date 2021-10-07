@@ -111,7 +111,7 @@ header nav .nav a:hover {
     margin-bottom: 75px; 
 }
 
-.header .container .banner .link{
+.link{
     text-decoration: none;
     font-family: 'Fira Sans', sans-serif;
     color: var(--white);
@@ -134,7 +134,7 @@ header nav .nav a:hover {
     
 }
 
-.header .container .banner .link:hover {
+.link:hover {
     opacity: 0.9;
     border: var(--light-blue);
     background: linear-gradient(to left, #b6e6ec, var(--light-blue));
@@ -210,21 +210,17 @@ main .about-us {
 }
 
 main .about-us .about-us-foto {
-    width: 100%;
-    height: 120vh;
-}
-
-
-main .about-us .about-us-foto {
     background-image: url(../img/background/girl-with-bottle.jpg);
     background-position-x: 50%;
     background-position-y: -1%;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
+    height: 120vh;
 }
 
-main .about-us .about-us-info .info-us {
-    margin: 20px 70px 30px 70px;
+main .about-us .about-us-info {
+    margin: 20px 70px 40px 70px;
     
 }
 
@@ -249,14 +245,14 @@ main .about-us .about-us-info .info-us p {
     font-style: italic;
 
 }
-main .about-us .about-us-info .our-advantages div h4 { 
+main .about-us .about-us-info .our-advantages h4 { 
     color: var(--dark-peachpuff);
     font-size: 24px;
     font-weight: bold;
     margin: 0px 25px 0px 25px;
 
 }
-main .about-us .about-us-info .our-advantages div p {
+main .about-us .about-us-info .our-advantages p {
     font-size: 17px;
     font-family: 'Fira Sans', sans-serif;
     color: var(--grey);
@@ -443,91 +439,3 @@ main .go-online p {
     line-height: 30px;
 }
 
-/*our-classes*/
-body .our-classes {
-    background-color: var(--wight);
-    width: 100%;
-    height: 120vh;
-    margin: 0 auto;
-    
-
-}
-
-body .our-classes h6 {
-    color: var(--dark-peachpuff);
-    font-family: 'Patrick Hand', sans-serif;
-    font-size: 22px;
-    padding-top: 107px;
-    margin-bottom: 40px;
-    text-align: center;
-
-}
-body .our-classes h4 {
-    color: var(--black-blue);
-    font-family: 'Rubik', sans-serif;
-    font-size: 66px;
-    margin-bottom: 60px;
-    font-style: bold;
-    text-align: center;
-}
-    
-
-
-body .our-classes .classes-group nav img {
-    max-width: 364px;
-    max-height: 246px;
-}
-
-body .our-classes .classes-group {
-    max-width: 75%;
-    margin: 0 auto;
-    overflow: hidden;
-}
-body .our-classes .classes-group .slider nav img { 
-align-items: center
-} 
-
-body .our-classes .classes-group .slider {
-    display: flex;
-    transition: .2s;
-}
-body .our-classes .classes-group .slider nav {
-    max-width: 360px;
-    max-height: 430px;
-    margin: 0 auto;
-    margin-left: 30px;
-}
-body .our-classes .butooms-slider .prev {
-    text-align: right;
-    background-color: lightgreen;
-    
-}
-body .our-classes .butooms-slider .next {
-    text-align: left;
-    background-color: palevioletred;
-}
-body .our-classes .classes-group .slider nav h5 {
-    color: var(--dark-blue);
-    font-family: 'Rubik', sans-serif;
-    font-size: 24px;
-    margin-top: 25px;
-    margin-bottom: 30px;
-    font-weight: 500;
-}
-
-body .our-classes .classes-group .slider nav p {
-    color: var(--grey);
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 17px;
-    margin-bottom: 25px;
-    
-}
-body .our-classes .classes-group .slider nav a {
-    color: var(--dark-blue);
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 13px;
-    margin-bottom: 25px;
-    font-style: bold;
-    direction: none;
-  
-}
