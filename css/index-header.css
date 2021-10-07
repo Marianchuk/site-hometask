@@ -358,6 +358,7 @@ main .go-online {
     height: 130vh;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0 auto;
 }
 
 main .go-online .link-go{
@@ -392,7 +393,7 @@ main .go-online .link-go:hover {
 }
 main .go-online h3 {
     margin-left: 175px;
-    padding-top: 183px;
+    padding-top: 103px;
     margin-bottom: 5px;
     color: var(--peachpuff);
     font-family: 'Patrick Hand', sans-serif;

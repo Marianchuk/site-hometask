@@ -156,8 +156,7 @@ body .ourClasses .butooms-slider .next {
     max-width: 95%;
     margin: 0 auto;
     text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
     /*overflow: hidden;
     position: relative;*/
 }
@@ -187,13 +186,13 @@ body .ourClasses .butooms-slider .next {
     overflow: hidden;
     display: flex;
     justify-content: space-between;
-    position: relative;
+    
 }
 .programs nav {
     width: 370px;
     height: 520px;
     background-color: var(--white);
-    
+       
 }
 .programs nav h3 {
     color: var(--black-blue);
