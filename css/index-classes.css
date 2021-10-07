@@ -111,6 +111,7 @@ body .ourClasses .butooms-slider {
 
 body .ourClasses .butooms-slider .prev {
     background-image: url(../img/button/prev.png);
+    text-decoration: none;
 }
 
 body .ourClasses .butooms-slider .next {
@@ -118,7 +119,7 @@ body .ourClasses .butooms-slider .next {
 }
 
 
-/*Choose-program*/
+/*сhoose-program*/
 .choose-program-and-plan {
     background-color: var(--pink);
     width: 100%;
@@ -151,7 +152,7 @@ body .ourClasses .butooms-slider .next {
 
 }
 
-.container-info .container-button {
+.container-info .navigation {
     max-width: 95%;
     margin: 0 auto;
     text-align: center;
@@ -161,20 +162,6 @@ body .ourClasses .butooms-slider .next {
     position: relative;*/
 }
 
-.container-intro {
-    max-width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 30px;
-}
-.container-intro nav {
-    width: 370px;
-    height: 520px;
-    background-color: var(--white);
-    
-}
 .navigation {
     max-width: 80%;
     margin: 0 auto;
@@ -193,3 +180,73 @@ body .ourClasses .butooms-slider .next {
     
 }
 
+.programs {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.programs nav {
+    width: 370px;
+    height: 520px;
+    background-color: var(--white);
+    
+}
+.programs nav h3 {
+    color: var(--black-blue);
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    max-width: 70%;
+    margin: 0 auto;
+    padding-top: 56px;
+    padding-bottom: 33px; 
+
+}
+
+.programs nav img {
+    width: 80px;
+    margin-bottom: 25px;
+    
+}
+
+.programs nav p {
+    color: var(--black-blue);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.programs nav a {
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    color: var(--white);
+    font-size: 14.3px;
+    font-weight: bold;
+    width: 237px;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-blue);
+    background: linear-gradient(to right, #b6e6ec, var(--light-blue));
+    background-position: 80%;
+    overflow: visible;
+    cursor: pointer;
+    border: var(--light-blue);
+    border-radius: 30px;
+    padding: 17px;
+    margin: 0 auto;
+}
+
+.link:hover {
+    opacity: 0.9;
+    border: var(--light-blue);
+    background: linear-gradient(to left, #b6e6ec, var(--light-blue));
+    background-position: 80%;
+    overflow: visible;
+
+}
