@@ -242,7 +242,7 @@ body .ourClasses .butooms-slider .next {
     margin: 0 auto;
 }
 
-.link:hover {
+.programs nav a:hover {
     opacity: 0.9;
     border: var(--light-blue);
     background: linear-gradient(to left, #b6e6ec, var(--light-blue));

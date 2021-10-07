@@ -111,7 +111,7 @@
         </nav>`,
         `<nav class="basic-group-classes-by-age">
             <h3>Basic group classes by age</h3>
-            <img src="img/logo/old-man.svg" alt="Old man">
+            <img  src="img/logo/old-man.svg" alt="Old man">
             <p>$30 / session</p>
             <p>Two classes per week<br>
                 Balance & flexibility exercises<br>

@@ -67,4 +67,5 @@
 
     const buttonPrev = document.querySelector(`.ourClasses .prev`);
     buttonPrev.addEventListener(`click`, prevSlide);
+
 }) ();
