@@ -22,48 +22,57 @@
 *:before,
 *:after {
     box-sizing: border-box;
+
 }
 
 /*home*/
 .container {
-    width: 100%;
-    max-width: 1200px;
+    width: 75%;
     margin: 0 auto;
-    padding: 7px 33px 157px 30px;
+    
     
 }
+
 .header .container .head {
     display: flex;
     justify-content: space-between;
     align-items: center;  
     padding-top: 25px;
+    
+
 }
+
 .header .container .head .menu {
 
     display: flex;
     justify-content: space-between;
+    flex: 1;
     align-items: center; 
+
 }
-
-
 
 .header {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 130vh;
-    
     background-image: url(../img/background/background-banner.png);
     background-position-x: 53%;
     background-position-y: -1%;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .header .container .head .header_logo .logo {
-    width: 225px;
-    height: 58px;
+    max-width: 33%;
+
 }
+
+.header .container .head .header_logo {
+    flex: 1;
+}
+
 
 .header .container .head .menu .nav a {
     display: inline-block;
@@ -73,16 +82,19 @@
     font-family: 'Fira Sans', sans-serif;
     color: var(--dark-blue);
     text-decoration: none;
+
 }
+
 header nav .nav a:hover {
     font-weight: bold;
+
 }
 
 /*banner*/
 .header .container .banner {
-    width: 540px;
-    height: 685px;
+    max-width: 60%;
     padding-top: 100px;
+
 }
 
 .header .container .banner h1 {
@@ -90,25 +102,30 @@ header nav .nav a:hover {
     color: var(--white);
     font-size: 95px;
     font-weight: 20px;
-    margin-top: 30px;
+    margin-top: 1rem;
+
 }
+
 .accent-color {
     color: var(--peachpuff);
+
 }
 
 .header .container .banner .its-time {
     font-family: 'Patrick Hand', cursive;
-    color: var(--dark-peachpuff);
+    color: var(--peachpuff);
     font-size: 20px;
     font-weight: bold;
+
 }
 
 .header .container .banner .take-your {
     font-family: 'Fira Sans', sans-serif;
     color: var(--white);
     font-size: 19px;
-    margin-top: 40px;
-    margin-bottom: 75px; 
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
 }
 
 .link {
@@ -117,8 +134,7 @@ header nav .nav a:hover {
     color: var(--white);
     font-size: 14.3px;
     font-weight: bold;
-    width: 237px;
-    height: 57px;
+    max-width: 35%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -148,7 +164,7 @@ main .short-navigation {
     width: 100%;
     height: 75vh;
     display: flex;
-    ; 
+    
 }
 
 
@@ -160,6 +176,7 @@ main .short-navigation > div {
     font-weight: bold;
     font-size: 24px;
     text-align: center;
+
 }
     
 
@@ -167,14 +184,16 @@ main .short-navigation div a {
     text-decoration: none;
     color: var(--white);
     font-size: 15px;
+
 }
 
 main .short-navigation div img {
-    width: 100px;
+    max-width: 20%;
     fill: var(--white);
     padding-top: 150px;
     background-position-x: 26%;
     background-position-y: 6%;
+
 }
 
 main .short-navigation .navigation-yellow {
@@ -183,6 +202,7 @@ main .short-navigation .navigation-yellow {
     background-repeat: no-repeat;
     background-position-x: 56%;
     background-position-y: -1%;
+
 }
 
 main .short-navigation .navigation-blu {
@@ -191,6 +211,7 @@ main .short-navigation .navigation-blu {
     background-repeat: no-repeat;
     background-position-x: 56%;
     background-position-y: -1%;
+
 }
 
 main .short-navigation .navigation-dark-blu {
@@ -198,46 +219,52 @@ main .short-navigation .navigation-dark-blu {
     background-size: cover;
     background-position-x: 48%;
     background-position-y: -1%;
+
 }
 
 /*about-us*/
 main .about-us {
     width: 100%;
-    height: 120vh;
+    height: 140vh;
     display: grid;
     grid-template-columns: 1fr 1fr; 
 
 }
 
-main .about-us .about-us-foto {
+.about-us .about-us-foto {
     background-image: url(../img/background/girl-with-bottle.jpg);
     background-position-x: 50%;
     background-position-y: -1%;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 120vh;
+    height: 140vh;
+
 }
 
-main .about-us .about-us-info {
-    margin: 20px 70px 40px 70px;
+.about-us .about-us-info {
+    max-width: 80%;
+    margin: auto;
     
 }
 
-main .about-us .about-us-info .info-us h3 {
+.about-us-info .info-us h3 {
     font-family: 'Patrick Hand', sans-serif;
     font-weight: bold;
     color: var(--dark-peachpuff);
     font-size: 22px;
+
 }
-main .about-us .about-us-info .info-us h2 {
+
+.about-us-info .info-us h2 {
     font-weight: bold;
     color: var(--dark-blue);
     font-size: 66px;
     font-family: 'Rubik', sans-serif;
     
 }
-main .about-us .about-us-info .info-us p {
+
+.about-us-info .info-us p {
     font-family: 'Fira Sans', sans-serif;
     font-size: 19px;
     color: var(--dark-blue);
@@ -245,29 +272,41 @@ main .about-us .about-us-info .info-us p {
     font-style: italic;
 
 }
-main .about-us .about-us-info .our-advantages h4 { 
+
+.about-us-info .our-advantages h4 { 
     color: var(--dark-peachpuff);
     font-size: 24px;
     font-weight: bold;
     margin: 0px 25px 0px 25px;
 
 }
-main .about-us .about-us-info .our-advantages p {
+
+.about-us-info .our-advantages p {
     font-size: 17px;
     font-family: 'Fira Sans', sans-serif;
     color: var(--grey);
     margin: 15px 25px 25px 25px;
+    
+}
+.back {
+    background-color: var(--peachpuff);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
 }
 
-   
+.our-advantages img {
+    margin: 13px;
+    
+}
 
 .item {
-    width: 80%;
+    width: 100%;
     display: grid;
-    grid-template-columns: 50px 500px;
+    grid-template-columns: 1fr 6fr;
     align-items: center;
-    margin: 0px 10px 0px 100px;
     gap: 1rem;
+
 }
 
 
@@ -278,7 +317,9 @@ main .about-us .about-us-info .button {
     font-family: 'Fira Sans', sans-serif;
     color: var(--dark-blue);
     text-decoration: none;
-    margin-left: 100px;
+    width: 90%;
+    padding-top: 30px;
+
 }
 
 
@@ -292,16 +333,22 @@ main .how-to-start {
     background-color: var(--peachpuff);
     text-align: center;
     width: 100%;
-    height: 90vh;
-    padding-top: 104px;
-
+    height: 95vh;
+    padding-top: 100px;
 
 }
+
+.start-container{
+    max-width: 80%;
+    margin: auto;
+}
+
 main .how-to-start .start-info h4 {
     font-family: 'Patrick Hand', sans-serif;
     font-size: 22px;
     color: var(--dark-peachpuff);
     font-weight: bold;
+
 }
 
 main .how-to-start .start-info h2 {
@@ -310,6 +357,7 @@ main .how-to-start .start-info h2 {
     color: var(--black-blue);
     font-weight: bold;
     margin-top: 25px;
+
 }
 
 main .how-to-start .start-info p {
@@ -323,7 +371,7 @@ main .how-to-start .start-info p {
 }
 
 main .how-to-start .easy-steps {
-    max-width: 1200px;
+    max-width: 80%;
     margin: 0 auto;
     display: grid;
     text-align: center;
@@ -332,23 +380,32 @@ main .how-to-start .easy-steps {
     align-items: center;
 
 }
+
 main .how-to-start .easy-steps h4 {
     font-size: 35px;
+    background-color: var(--white);
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
     color: var(--dark-peachpuff);
-    background-image: url(../img/background/button_icon_white.svg.png);
-    margin-bottom: 50px;
+    padding-top: 14px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: auto;
 }
+
 main .how-to-start .easy-steps div h5 {
     font-family: 'Rubik', sans-serif;
     font-size: 30px;
     color: var(--black-blue);
-    margin-bottom: 30px;
+    margin: 30px 0px 30px 0px;
+
 }
 
 main .how-to-start .easy-steps div p {
     font-family: 'Fira Sans', sans-serif;
     font-size: 17px;
     color: var(--grey);
+
 }
 
 /*go-online*/
@@ -367,8 +424,6 @@ main .go-online .link-go{
     color: var(--dark-peachpuff);
     font-size: 13px;
     font-weight: bold;
-    width: 219px;
-    height: 49px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -376,9 +431,9 @@ main .go-online .link-go{
     background-color: var(--white);
     cursor: pointer;
     border-radius: 30px;
-    padding: 25px;
-    max-width: 45%;
+    padding: 20px;
     margin-left: 175px;
+    max-width: 15%;
     
 }
 
@@ -390,7 +445,9 @@ main .go-online .link-go:hover {
     overflow: visible;
     color: var(--white);
     border: var(--peachpuff);
+
 }
+
 main .go-online h3 {
     margin-left: 175px;
     padding-top: 103px;
@@ -399,7 +456,9 @@ main .go-online h3 {
     font-family: 'Patrick Hand', sans-serif;
     font-size: 22px;
     max-width: 45%;
+
 }
+
 main .go-online h2 {
     color: var(--white);
     font-family: 'Rubik', sans-serif;
@@ -407,6 +466,7 @@ main .go-online h2 {
     margin-left: 175px;
     margin-bottom: 55px;
     max-width: 45%;
+
 }
 
 main .go-online ul {
@@ -417,6 +477,7 @@ main .go-online ul {
     font-weight: 700;
     margin-bottom: 15px;
     max-width: 45%;
+
 }
 
 main .go-online ul {list-style: none}
@@ -429,6 +490,7 @@ main .go-online ul li::before {
     margin-bottom: 15px;
     
 }
+
 main .go-online p {
     color: var(--white);
     font-family: 'Fira Sans', sans-serif;
@@ -438,5 +500,123 @@ main .go-online p {
     margin-bottom: 75px;
     max-width: 45%;
     line-height: 30px;
+
+}
+/*our-instructors*/
+.our-instructors {
+    width: 100%;
+    height: 130vh;
+    background-color: var(--white);
+
 }
 
+.container-text {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 102px;
+
+}
+
+.container-text h5 {
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 21px;
+    color: var(--dark-peachpuff);
+    padding-bottom: 21px;
+
+}
+
+.container-text h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 63px;
+    color: var(--black-blue);
+    padding-bottom: 40px;
+
+}
+
+.container-text p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    color: var(--dark-blue);
+    padding-bottom: 63px;
+    font-style: italic;
+
+}
+.trainers {
+    width: 85%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between; 
+    margin: 0 auto;
+    
+}
+            
+.trainers .fitness {
+    background-image: url(../img/instructors/alice-fergusson.webp);
+    background-position-x: 50%;
+    background-position-y: -1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 85%;
+    height: 60vh;
+}
+
+.trainers .pilates {
+    background-image: url(../img/instructors/dan-williamson.webp);
+    background-position-x: 50%;
+    background-position-y: -1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 85%;
+    height: 60vh;
+}
+
+.trainers .yoga {
+    background-image: url(../img/instructors/jane-kellen.webp);
+    background-position-x: 68%;
+    background-position-y: -1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 85%;
+    height: 60vh;
+}
+
+.name {
+    background-color: var(--light-blue);
+    max-width: 85%;
+    margin: 0 auto;
+    font-family: 'Rubik', sans-serif;
+    color: var(--white);
+    text-align: center;
+    margin-top: 400px;
+    padding: 20px 0px 20px 0px;
+    
+
+}
+/*
+.aligh-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.aligh-right {
+    float: right;
+    margin-left: 20px;
+}
+
+.slide-in {
+    opacity: 0;
+    transition: all .5s;
+}
+ .aligh-left.slide-in {
+     transform: translateX(-30%) scale(0.95);
+
+ }
+ .aligh-right.aligh-left.slide-in {
+     transform: translateX(30%) scale(0.95);
+ }
+ .slide-in.active{
+     opacity: 1;
+     transform: translateX(0%) scale(1);
+ }*/
