@@ -183,7 +183,7 @@ body .ourClasses .butooms-slider .next {
 .tab.active {
    background-color: red;
 }
-.programs #pilates {
+.programs .pilatesGrup {
     max-width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -298,12 +298,12 @@ body .ourClasses .butooms-slider .next {
     overflow: visible;
 
 }
-
-.tabcontent.active {
-    display: block;
-}
 .tabcontent {
     display: none;
 }
+.tabcontent.active {
+    display: block;
+}
+
 
 
