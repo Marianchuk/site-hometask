@@ -9,7 +9,7 @@
 
 :root {
     --peachpuff: #ffe2de;
-    --white: white;
+    --white: rgb(255, 255, 255);
     --dark-blue: rgb(89, 109, 167);
     --light-blue: #62d0df;
     --grey: rgb(165, 164, 164);
@@ -591,8 +591,6 @@ main .go-online p {
     text-align: center;
     margin-top: 400px;
     padding: 20px 0px 20px 0px;
-    
-
 }
 /*
 .aligh-left {
@@ -620,3 +618,4 @@ main .go-online p {
      opacity: 1;
      transform: translateX(0%) scale(1);
  }*/
+

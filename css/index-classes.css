@@ -150,46 +150,97 @@ body .ourClasses .butooms-slider .next {
 
 }
 
-.container-info .navigation {
+.inserts {
     max-width: 95%;
     margin: 0 auto;
     text-align: center;
-    
-    /*overflow: hidden;
-    position: relative;*/
 }
 
-.navigation {
+
+.tabs {
     max-width: 80%;
     margin: 0 auto;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-.navigation h4 {
-    color: var(--black-blue);
+.tabs a {
+    text-decoration: none;
+    color: var(--dark-blue);
     font-family: 'Fira Sans', sans-serif;
     font-size: 16px;
     max-width: 80%;
     margin: 55px auto;
-    text-align: center;
-    
-    
+    text-align: center;   
+    font-weight: 100px;
+    cursor: pointer;
+}
+.tabs a:hover {
+    color: var(--black-blue);
+    font-style: bold;
 }
 
-.programs {
+.tab.active {
+   background-color: red;
+}
+.programs #pilates {
     max-width: 100%;
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 5px;
 }
+
+.programs #fitness {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 5px;
+}
+
+.programs #pregnancy {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 5px;
+}
+.programs #children {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 5px;
+}
+
+.programs #seniors {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 5px;
+}
+
 .programs nav {
     width: 370px;
     height: 520px;
-    background-color: var(--white);
+    background-color:yellow;
        
 }
 .programs nav h3 {
@@ -247,3 +298,12 @@ body .ourClasses .butooms-slider .next {
     overflow: visible;
 
 }
+
+.tabcontent.active {
+    display: block;
+}
+.tabcontent {
+    display: none;
+}
+
+
