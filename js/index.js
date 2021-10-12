@@ -18,7 +18,7 @@
         html += slides[nextSlide];
         const next2Slide = nextSlide + 1 < slides.length ? nextSlide + 1 : 0;
         html += slides[next2Slide];
-        const next3Slide = nextSlide + 1 < slides.length ? nextSlide + 1 : 0;
+        const next3Slide = next2Slide + 1 < slides.length ? next2Slide + 1 : 0;
         html += slides[next3Slide];
         slideContainer.innerHTML = html;
     }
@@ -33,7 +33,7 @@
         if (currentSlide < 0) currentSlide = slides.length - 1;
         showCurrentSlide();
     }
-    setInterval(nextSlide, 4000);
+    setInterval(nextSlide, 3500);
     showCurrentSlide();
 
     const buttonNext = document.querySelector(`.containerFollowUs .next`);
