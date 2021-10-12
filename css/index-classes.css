@@ -52,7 +52,7 @@ body .ourClasses h4 {
 }
     
 body .ourClasses .classesGroup .carousel .slide-container  {
-    max-width: 75%;
+    max-width: 86%;
     margin: 0 auto;
     overflow: hidden;
     display: flex;
@@ -132,7 +132,7 @@ body .ourClasses .butooms-slider .next {
 }
 
 .container-info {
-    max-width: 80%;
+    max-width: 88%;
     margin: 0 auto;
     text-align: center;
 }
@@ -159,7 +159,7 @@ body .ourClasses .butooms-slider .next {
 }
 
 .tabs {
-    max-width: 90%;
+    max-width: 91%;
     margin: 0 auto;
     text-align: center;
     display: grid;

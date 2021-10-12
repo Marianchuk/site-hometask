@@ -28,7 +28,7 @@
 
 /*home*/
 .container {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
     
     
@@ -597,7 +597,7 @@ main .go-online p {
     font-family: 'Rubik', sans-serif;
     color: var(--white);
     text-align: center;
-    margin-top: 400px;
+    margin-top: 380px;
     padding: 20px 0px 20px 0px;
 }
 
