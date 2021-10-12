@@ -89,7 +89,14 @@ header nav .nav a:hover {
     font-weight: bold;
 
 }
-
+.social-icons a {
+    margin: 0 auto;
+    max-width: 100%;
+    
+}
+.social-icons img {
+    
+}
 /*banner*/
 .header .container .banner {
     max-width: 60%;
@@ -592,30 +599,33 @@ main .go-online p {
     margin-top: 400px;
     padding: 20px 0px 20px 0px;
 }
-/*
-.aligh-left {
-    float: left;
-    margin-right: 20px;
+
+
+/*follow-us*/
+.footer {
+    width: 100%;
+    height: 130vh;
+    margin: 0 auto;
+}
+.containerFollowUs {
+    background-color: var(--black-blue);
+    height: 90vh;
+}
+.follow-us {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 1;
+    max-width: 80%;
+    margin: 0 auto;
+    
 }
 
-.aligh-right {
-    float: right;
-    margin-left: 20px;
+.follow-us img{
+    overflow: hidden;
+    position: relative;
+    justify-content: space-between;
+    gap: 15px;
+    max-width: 20%;
 }
-
-.slide-in {
-    opacity: 0;
-    transition: all .5s;
-}
- .aligh-left.slide-in {
-     transform: translateX(-30%) scale(0.95);
-
- }
- .aligh-right.aligh-left.slide-in {
-     transform: translateX(30%) scale(0.95);
- }
- .slide-in.active{
-     opacity: 1;
-     transform: translateX(0%) scale(1);
- }*/
-

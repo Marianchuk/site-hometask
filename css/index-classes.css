@@ -109,11 +109,17 @@ body .ourClasses .butooms-slider {
 
 body .ourClasses .butooms-slider .prev {
     background-image: url(../img/button/prev.png);
-    text-decoration: none;
+    border: none;
+    margin-left: 65px;
+    width: 35px;
 }
 
 body .ourClasses .butooms-slider .next {
     background-image: url(../img/button/next.png);
+    border: none;
+    margin-right: 65px;
+    width: 35px;
+    
 }
 
 
@@ -137,8 +143,6 @@ body .ourClasses .butooms-slider .next {
     font-size: 30px;
     padding-top: 50px;
     margin-bottom: 15px;
-
-
 }
 
 .container-info h2 {
@@ -146,8 +150,6 @@ body .ourClasses .butooms-slider .next {
     font-family: 'Rubik', sans-serif;
     font-size: 70px;
     margin-bottom: 20px;
-    
-
 }
 
 .inserts {
@@ -156,77 +158,50 @@ body .ourClasses .butooms-slider .next {
     text-align: center;
 }
 
-
 .tabs {
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 25px;
 }
-.tabs a {
+
+.tabs .tab {
     text-decoration: none;
     color: var(--dark-blue);
     font-family: 'Fira Sans', sans-serif;
-    font-size: 16px;
-    max-width: 80%;
+    font-size: 18px;
+    max-width: 90%;
     margin: 55px auto;
     text-align: center;   
-    font-weight: 100px;
     cursor: pointer;
+    background-color: var(--pink);
+    border: none;
+    margin-bottom: 5px;
 }
-.tabs a:hover {
+
+.tabs .tab:hover {
     color: var(--black-blue);
     font-style: bold;
+    
 }
 
 .tab.active {
-   background-color: red;
-}
-.programs .pilatesGrup {
-    max-width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    overflow: hidden;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-bottom: 5px;
+    border-bottom: 3px solid;
+    border-bottom-color: var(--black-blue);
 }
 
-.programs #fitness {
-    max-width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    overflow: hidden;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-bottom: 5px;
+.tabcontent {
+    display: none;
 }
 
-.programs #pregnancy {
-    max-width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    overflow: hidden;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-bottom: 5px;
-}
-.programs #children {
-    max-width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    overflow: hidden;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-bottom: 5px;
+.tabcontent.active {
+    display: block;
 }
 
-.programs #seniors {
+.programs div div {
     max-width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -240,9 +215,10 @@ body .ourClasses .butooms-slider .next {
 .programs nav {
     width: 370px;
     height: 520px;
-    background-color:yellow;
+    background-color: var(--white);
        
 }
+
 .programs nav h3 {
     color: var(--black-blue);
     font-family: 'Rubik', sans-serif;
@@ -255,7 +231,7 @@ body .ourClasses .butooms-slider .next {
 }
 
 .programs nav img {
-    width: 80px;
+    width: 50px;
     margin-bottom: 25px;
     
 }
@@ -298,12 +274,8 @@ body .ourClasses .butooms-slider .next {
     overflow: visible;
 
 }
-.tabcontent {
-    display: none;
-}
-.tabcontent.active {
-    display: block;
-}
+
+
 
 
 
